@@ -47,3 +47,38 @@
         }
     }
 }
+
+#portfolio {
+    .container {
+        .py-5 {
+        }
+        .row {
+            padding-bottom: 3rem;
+            .card {
+                cursor: pointer;
+                img {
+                    min-height: 190px;
+                }
+                &:hover {
+                    -webkit-box-shadow: 6px 4px 5px 0px rgba(231, 166, 26, 1);
+                    -moz-box-shadow: 6px 4px 5px 0px rgba(231, 166, 26, 1);
+                    box-shadow: 6px 4px 5px 0px rgba(231, 166, 26, 1);
+                    transform: scale(1.1);
+                    transition: all 0.2s ease-in-out;
+
+                }
+                text-decoration: none;
+                .card-footer {
+                    text-align: center;
+                    font-size: 20px;
+                    color: black;
+                    background: gainsboro;
+                    .text-muted {
+                        color: black !important;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
