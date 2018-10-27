@@ -37,4 +37,31 @@
 .nav-item .nav-link.active {
   background: black;
 }
+#portfolio .container .row {
+  padding-bottom: 3rem;
+}
+#portfolio .container .row .card {
+  cursor: pointer;
+  text-decoration: none;
+}
+#portfolio .container .row .card img {
+  min-height: 190px;
+}
+#portfolio .container .row .card:hover {
+  -webkit-box-shadow: 6px 4px 5px 0px #e7a61a;
+  -moz-box-shadow: 6px 4px 5px 0px #e7a61a;
+  box-shadow: 6px 4px 5px 0px #e7a61a;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+#portfolio .container .row .card .card-footer {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  background: gainsboro;
+}
+#portfolio .container .row .card .card-footer .text-muted {
+  color: black !important;
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
